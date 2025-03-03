@@ -1,0 +1,38 @@
+Banks :
+
+Mastercard 
+American Express 
+Barclays 
+Citi
+BNY Mellon 
+Deutsche Bank
+UBS
+
+Products:
+
+druva
+Flipkart
+Microsoft
+Google
+Oracle
+Amazon (AWS and Alexa Teams)
+VMware
+Thoughtworks
+Quick Heal Technologies
+BMC Software
+Adobe
+Red hat
+Autodesk
+NASDAQ 
+Cannonical
+Nutanix
+Reliaquest
+Cowbell
+tomtom
+NVIDIA
+VMware
+SAP Labs
+PhonePe 
+Postman 
+BrowserStack
+

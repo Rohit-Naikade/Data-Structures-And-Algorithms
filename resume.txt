@@ -1,0 +1,217 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Rohit}{Naikade}{ \urlstyle{}\href{mailto:naikaderohit833@gmail.com}{naikaderohit833@gmail.com} |  
+ 7522979006 | 
+\urlstyle{}\href{https://www.linkedin.com/in/rohit-naikade-938b3819a}{LinkedIn} |
+\urlstyle{}\href{https://leetcode.com/u/RohitNaikade264/}{LeetCode} 
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section for Professional Summary
+\section{Professional Summary}
+Software developer with 3+ years of experience in \textbf{Spring Boot, AWS, and DevOps technologies}. Proven expertise in providing robust, scalable solutions, optimize \& modernize workflows, and ensuring regulatory compliance. Demonstrated excellence in analytical problem solving, with a strong commitment to
+quality and the ability to collaborate effectively with cross-functional teams to achieve organizational
+objectives.
+
+
+\section{Education} 
+
+\subsection{PCET's PCCOE}
+\descript{BE in Computer Engineering}
+\location{June 22 | Nigdi,Pune}
+\location{ CGPA: 9.72 }
+\sectionsep
+
+\subsection{Govt. Polytechnic Avasari}
+\descript{Diploma in Computer Engineering}
+\location{June 19 | Avasari,Pune}
+\location{ Percentage: 89.13 }
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Certifications}
+% \subsection{}
+AWS Certified \textbf{Cloud Practitioner - CLF - C02}. \\
+AWS Certified \textbf{Developer Associate - DVA - C02}. \\
+Wiley Certified \textbf{Software Developer}. \\
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming Languages }
+
+Java \textbullet{}Spring Boot \textbullet{} Hibernate
+\textbullet{} Microservices \textbullet{} Kafka \textbullet{} MySQL 
+\sectionsep
+\subsection{DevOps and Cloud }
+
+AWS(S3, EC2, Glue, Athena, Lambda, RDS, Cloudwatch, Redshift) \textbullet{} Docker \textbullet{}  Kubernetes \textbullet{} Jenkins  \textbullet{}  Ansible \textbullet{} Terraform 
+\sectionsep
+
+\subsection{Tools}
+Git \textbullet{}  Github \textbullet{} Jira  \textbullet{} Postman \textbullet{} splunk
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{JPMorgan Chase \& Co. }
+\descript{| Software Developer I }
+\location{June 23 - Present | Mumbai }
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Part of the \textbf{Regulatory Reporting Organization} responsible for managing over 250 market-critical reports for China, Japan, Singapore, Korea, and Philippines. 
+\item Developed, maintained and optimized reporting frameworks using \textbf{Java}, \textbf{SQL}, and \textbf{AWS} reducing \textbf{report generation time by 90\%} and improving the \textbf{precision by 75\%}.
+\item Actively contributed to an \textbf{Agile team of 10+ developers} , leveraging tools like \textbf{Git} for version control and continuous integration. 
+\item Coordinated with cross-functional teams to deliver high-impact solutions for multiregional market requirements. 
+\sectionsep
+\end{tightemize}
+
+\runsubsection{Wiley | JPMorgan Chase \& Co.(On-site)}
+\descript{| Software Developer I }
+\location{June 2022 – May 23 | Mumbai }
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Worked as part of the \textbf{Regulatory Reporting Organization}, automating and\textbf{ optimizing over 250 market-critical reports} for Japan, China, Singapore, the Philippines, and Korea. 
+\item Delivered country-specific reporting solutions that adhered to unique regulatory standards and requirements, \textbf{achieving a 99\% on-time compliance} rate in all jurisdictions.
+\item Maintained strategic systems and resolved production issues with detailed root cause analysis.
+\item Achieved full-time absorption into JPMC Reg Reporting Team based on performance.
+\sectionsep
+\end{tightemize}
+
+\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+
+
+
+\runsubsection{Migration of Markets Report framework from On-premises to AWS.}
+\descript{| Migration on AWS.}
+\location{ }
+
+Migrated an on-premises market reporting framework to AWS, utilizing S3, Glue,AWS Athena and EC2. Reduced \textbf{operational costs by 30\% }and eliminated maintenance efforts for the hardware on site, \textbf{ achieving 99. 9\% uptime} for the reporting framework. Reduced report processing time from \textbf{6 hours} on AWS Redshift to \textbf{6 minutes} on AWS Athena, resulting in a \textbf{99\% reduction} in execution time. 
+
+
+\textbf{Technologies:} EC2, Lambda, S3, Glue, Athena, Redshift, Cloudwatch, RDS, splunk.
+\sectionsep 
+
+\runsubsection{Data Explorer.}
+\descript{| Innovation Project.}
+\location{  }
+Developed an innovative solution that enhanced the visibility of data in the market for \textbf{ 500 + users} in Japan and China, reducing the data preparation time by \textbf{90\%} and speeding up investigation of production issues by \textbf{ 95\%}. This solution improved operational efficiency by \textbf{90\%}, supporting better decision-making and faster resolution of problems.
+
+ 
+
+\textbf{Technologies:} SpringBoot,Microservices, Hibernate/JPA, Spring Security, ReactJs, MySQL.
+\sectionsep 
+
+\runsubsection{Regression Tool.}
+\descript{| Innovation Project.}
+\location{  }
+Designed and developed an automation tool that reduced the regression \textbf{ test effort by} \textbf{90\%} and cut the time of the \textbf{ test cycle by 95\%}, significantly improving the efficiency of the test and the productivity of the developer by \textbf{ 90\%}. 
+
+\textbf{Technologies:} SpringBoot, Hibernate/JPA, Spring Security, ReactJs, MySQL.
+\sectionsep 
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
