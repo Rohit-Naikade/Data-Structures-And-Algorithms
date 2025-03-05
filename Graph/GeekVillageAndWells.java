@@ -69,7 +69,9 @@ public class GeekVillageAndWells {
                     int ij=tmp.y+dy[i];
 
                     if(ii>=0 && ij>=0 && ii<rows && ij<cols && (matrix[ii][ij]=='H' || matrix[ii][ij]=='.')){
-                        ans[ii][ij]=level*2;
+                        if(matrix[ii][ij]=='H'){
+                            ans[ii][ij]=level*2;
+                        }
                         matrix[ii][ij]='N';
                         queue.add(new Pair(ii, ij));
                     }
