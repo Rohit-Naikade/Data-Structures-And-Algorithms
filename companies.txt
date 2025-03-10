@@ -1,7 +1,6 @@
 Banks :
 
 Mastercard 
-American Express 
 Barclays 
 Citi
 BNY Mellon 
@@ -20,7 +19,6 @@ VMware
 Thoughtworks
 Quick Heal Technologies
 BMC Software
-Adobe
 Red hat
 Autodesk
 NASDAQ 

@@ -40,7 +40,7 @@ public class ZeroOneMatrix {
     }
 
     public static void updateMatrix(int mat[][]){
-        Map<Integer, List<Integer>> graph=new HashMap<>();
+
         Queue<Cell> queue=new LinkedList();
 
         for(int i=0;i<mat.length;i++){
