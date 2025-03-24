@@ -21,6 +21,7 @@ Quick Heal Technologies
 BMC Software
 Red hat
 Autodesk
+BroadCom
 NASDAQ 
 Cannonical
 Nutanix
