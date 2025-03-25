@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class CourseSchedule {
+public class courseSchedule {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -11,6 +11,8 @@ public class CourseSchedule {
         int edges = sc.nextInt();
 
         int u, v;
+        List<List<Integer>> graph=new ArrayList<>();
+
         int courses[][] = new int[size][2];
         for (int i = 0; i < edges; i++) {
             System.out.println("Enter U:");
@@ -21,12 +23,20 @@ public class CourseSchedule {
             courses[i][1] = v;
         }
 
-        int result[] = findOrder(size, courses);
+        for(int i=0;i<courses.length;i++){
+            list.putIfAbsent(courses[i][1], new ArrayList<>());
+            list.get(courses[i][1]).add(courses[i][0]);
 
-        System.out.println("Result is: ");
-        for (int i = 0; i < result.length; i++) {
-            System.out.print(result[i] + " ");
         }
+
+        System.out.println(list);
+
+        // int result[] = findOrder(size, courses);
+
+        // System.out.println("Result is: ");
+        // for (int i = 0; i < result.length; i++) {
+        //     System.out.print(result[i] + " ");
+        // }
 
     }
 
