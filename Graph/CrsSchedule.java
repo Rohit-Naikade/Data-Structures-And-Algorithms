@@ -38,7 +38,7 @@ public class CrsSchedule {
         boolean hasCycle=false;
         for(int i=0;i<size;i++){
             if(visited[i]==0){
-                hasCycle=hasCycle || findOrder(graph, i, visited, currPath);
+                hasCycle=findOrder(graph, i, visited, currPath);
                 if(hasCycle){
                     break;
                 }

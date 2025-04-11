@@ -19,8 +19,8 @@
 \usepackage{fontawesome5} % for using icons
 \usepackage{amsmath} % for math
 \usepackage[
-    pdftitle={John Doe's CV},
-    pdfauthor={John Doe},
+    pdftitle={Rohit Naikade's Resume},
+    pdfauthor={Rohit Naikade},
     pdfcreator={LaTeX with RenderCV},
     colorlinks=true,
     urlcolor=primaryColor
@@ -220,15 +220,18 @@
 
     \section{Technologies}
 
-        \begin{onecolentry}
-            \textbf{Languages:}Java, Spring Boot, Hibernate, Microservices, Kafka, MySQL, Javascript, HTML, CSS, Python
+         \begin{onecolentry}
+            \textbf{Front End Technologies:} HTML, CSS, Javascript, ReactJS. \end{onecolentry}
 
-        \end{onecolentry}
+        \vspace{0.2 cm}
+        
+        \begin{onecolentry}
+            \textbf{Backend Technologies:}Java, Spring Boot, Hibernate, Microservices, Kafka, MySQL, Python. \end{onecolentry}
 
         \vspace{0.2 cm}
 
         \begin{onecolentry}
-            \textbf{DevOps and Cloud:} AWS(S3, EC2, Glue, Athena, Lambda, RDS, Cloudwatch, Redshift), Docker, Kubernetes, Jenkins, Unix/Linux
+            \textbf{DevOps and Cloud:} AWS(S3, EC2, Glue, Athena, Lambda, RDS, Cloudwatch, Redshift), Docker, Kubernetes, Jenkins, Unix/Linux.
 
         \end{onecolentry}
          \vspace{0.2 cm}
@@ -259,7 +262,7 @@
         }
             \textbf{Software Developer}, JPMorgan Chase \& Co. Mumbai\end{twocolentry}
 
-        \vspace{0.10 cm}
+        \vspace{0.15 cm}
         \begin{onecolentry}
             \begin{highlights}
                 \item Part of the \textbf{Regulatory Reporting Organization} responsible for managing over 250 market-critical reports for China, Japan, Singapore, Korea, and Philippines. 
@@ -332,6 +335,20 @@
                 \item \textbf{Technologies:} SpringBoot, Hibernate/JPA, Spring Security, ReactJs, MySQL.
             \end{highlights}
         \end{onecolentry}
+\vspace{0.2 cm}
+        \begin{twocolentry}{
+            
+        }
+            \textbf{Force For Good - NIWYCD.}\end{twocolentry}
+
+        \vspace{0.10 cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Selected for JPMC’s \textbf{Force for Good} program to build a tech solution for \textbf{NIWYCD NGO}, focusing on data collection, visualization and historical data access.
+        \item Participated in client interactions for the collection of \textbf{ requirements} and contributed to discussions on \textbf{ technology stack and architecture design}.
+
+    \end{highlights}
+\end{onecolentry}
   
 
 \end{document}
